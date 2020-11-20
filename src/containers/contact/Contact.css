@@ -11,7 +11,7 @@
 }
 
 .contact-title {
-  font-size: 65px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .contact-margin-top {
-  margin-top: 4rem;
+  margin-top: 0rem !important;
 }
 
 .contact-image-div > img {

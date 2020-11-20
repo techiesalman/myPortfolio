@@ -33,7 +33,7 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          <li>
+          {/* <li>
             <a href="#opensource">Open Source</a>
           </li>
           <li>
@@ -44,7 +44,7 @@ function Header() {
           </li>
           <li>
             <a href="#talks">Talks</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>

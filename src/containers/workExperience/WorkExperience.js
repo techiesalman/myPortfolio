@@ -17,7 +17,20 @@ export default function WorkExperience() {
                         <div className="experience-cards-div">
                         {workExperiences.experience.map((card) => {
                             return (
-                                <ExperienceCard
+                                <>
+                                <ExperienceCard StyleContext={{display:'none'}}
+                                    isDark={isDark}
+                                    cardInfo={{
+                                        company: card.company,
+                                        desc: card.desc,
+                                        date: card.date,
+                                        companylogo: card.companylogo,
+                                        role: card.role,
+                                        descBullets: card.descBullets,
+                                        isshow: card.isshow
+                                    }}
+                                />
+                                {/* <ExperienceCard
                                     isDark={isDark}
                                     cardInfo={{
                                         company: card.company,
@@ -27,7 +40,8 @@ export default function WorkExperience() {
                                         role: card.role,
                                         descBullets: card.descBullets
                                     }}
-                                />
+                                /> */}
+                                </>
                             );
                         })}
                         </div>
