@@ -33,6 +33,7 @@ export default function StartupProject() {
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
                     <img alt="Salman Working" src={project.image}></img>
+                    {/* <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum v Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum</p> */}
                   </div>
                 );
               })}

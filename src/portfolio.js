@@ -19,7 +19,6 @@ const socialMediaLinks = {
 
   github: "https://github.com/techiesalman",
   linkedin: "https://www.linkedin.com/in/techiesalman/",
-  gmail: "techiesalman@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/10228422/salman"
   // Instagram and Twitter are also supported in the links!
 };
@@ -30,7 +29,7 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Back end and Front end for web and mobile applications"),
+    emoji("⚡ Develop highly interactive web and mobile applications"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ Digital Ocean")
   ],
@@ -55,18 +54,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "ionic",
       fontAwesomeClassname: "devicon-ionic-original"
     },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
     {
       skillName: "typescript",
       fontAwesomeClassname: "devicon-typescript-plain"
@@ -79,10 +78,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "jquery",
       fontAwesomeClassname: "devicon-jquery-plain"
     },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
       skillName: "ms sql",
       fontAwesomeClassname: "fas fa-database"
@@ -105,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  viewEducation: false, // Set it to true to see education section
   schools: [
     {
       schoolName: "Mumbai University",
@@ -148,20 +147,20 @@ const techStack = {
   experience: [
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      progressPercentage: "55%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "DevOps",
       progressPercentage: "40%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    // {
+    //   Stack: "Programming",
+    //   progressPercentage: "60%"
+    // }
   ]
 };
 
@@ -174,9 +173,9 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Epicenter",
-      companylogo: require("./assets/images/EPILogo.png"),
+      companylogo: require("./assets/images/epiLogo.png"),
       date: "Feb 2020 – Present",
-      desc: "Discuss with Jitan",
+      desc: "Epicenter has Core Competence in processes like Customer Service, Collections, Sales, Transaction Processing, Data processing, Chat, and E-mail support. Their development team develops software for the internal team as well as external clients.",
       // descBullets: [
       //   "Software Design & Development - Responsible for designing various modules and developing them accordingly",
       // ]
@@ -184,10 +183,11 @@ const workExperiences = {
     },
     {
       role: "Software Programmer",
-      company: "Planfirma",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      company: "StrikingSpear",
+      companylogo: require("./assets/images/ssLogo.png"),
       date: "Dec 2018 – Jan 2020",
-      desc: "Striking Spear is a service-based company where they are making projects as per client’s requests.",
+      // desc: "Striking Spear is a service-based company where they are making projects as per client’s requests.",
+      desc: "Striking Spear develops innovative and creative products and services that provide total software solutions. It is a service-based company where they are making projects as per the client’s requests.",
       // descBullets: [
       //   "Software Design & Development - Responsible for designing various modules and developing them accordingly",
       // ]
@@ -239,7 +239,7 @@ const bigProjects = {
 const contactInfo = {
   title: emoji("Reach Out to me!"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9819046929",
+  // number: "+91-9819046929",
   email_address: "hi@techiesalman.com"
 };
 
