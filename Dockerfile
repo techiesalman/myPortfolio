@@ -2,7 +2,7 @@
 
 # Official Node JS runtime as a parent image
 # FROM node:10.16.0-alpine
-FROM node:13.1-alpine
+FROM node:14.15.1-alpine3.10
 
 # Set the working directory to ./app
 WORKDIR /app
