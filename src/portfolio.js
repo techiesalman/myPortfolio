@@ -17,8 +17,8 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/techiesalman",
   linkedin: "https://www.linkedin.com/in/techiesalman/",
+  github: "https://github.com/techiesalman",
   stackoverflow: "https://stackoverflow.com/users/10228422/salman"
   // Instagram and Twitter are also supported in the links!
 };
@@ -31,7 +31,8 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly interactive web and mobile applications"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ Digital Ocean"),
+    emoji("⚡ Creating application backend in .Net and .Net Core")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -212,7 +213,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "techiesalman", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -226,13 +227,13 @@ const bigProjects = {
     {
       image: require("./assets/images/JHLogo.png"),
       link: "https://www.jugaadhai.in/"
-    }
+    },
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   link: "http://nextu.se/"
     // }
   ]
-};
+};  
 
 
 
@@ -240,7 +241,7 @@ const contactInfo = {
   title: emoji("Reach Out to me!"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+91-9819046929",
-  email_address: "hi@techiesalman.com"
+  email_address: "hi@techiesalman.com",
 };
 
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, contactInfo};
