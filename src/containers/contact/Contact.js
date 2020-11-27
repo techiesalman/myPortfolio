@@ -24,8 +24,8 @@ export default function Contact() {
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            {/* <img className="profile-image" src="../../assets/images/me.jpg" alt="Salman Khan" /> */}
-            <img className="profile-image" src="https://media-exp1.licdn.com/dms/image/C5103AQEEWZkkPJfJrQ/profile-displayphoto-shrink_200_200/0/1573970046849?e=1611792000&v=beta&t=HU785peP1p0vL0adKW3Tu8QwNTewr7nMGq4fLeSvvTc" alt="Salman Khan" />
+            <img className="profile-image" src={require("../../assets/images/profile.png")} alt="Salman Khan" />
+            {/* <img className="profile-image" src="https://media-exp1.licdn.com/dms/image/C5103AQEEWZkkPJfJrQ/profile-displayphoto-shrink_200_200/0/1573970046849?e=1611792000&v=beta&t=HU785peP1p0vL0adKW3Tu8QwNTewr7nMGq4fLeSvvTc" alt="Salman Khan" /> */}
           </div>
         </div>
       </div>
