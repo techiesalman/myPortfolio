@@ -12,10 +12,11 @@ export default function Contribution() {
             <div className="main contact-margin-top" id="contact">
                 <h1 className="prof-title">Github Contributions</h1>
                 <br></br>
-                <div className="row">
-                    <GitHubCalendar blockSize={20} blockMargin={4} username="techiesalman">
+                <div className="row parentOverScroll" >
+                    <GitHubCalendar username="techiesalman" style={{width:'max-content'}}>
                         <ReactTooltip delayShow={50} html />
                     </GitHubCalendar>
+                    {/* <GitHubCalendar username="techiesalman" /> */}
                 </div>
             </div>
         </Fade>

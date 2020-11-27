@@ -1,1 +1,9 @@
-/* .react-github-calendar__calendar { width: 100%; } */
+@media only screen and (max-width: 768px) {
+    .parentOverScroll {
+        overflow: scroll;
+    }
+
+    .childMaxWidth {
+        width: max-content;
+    }
+}

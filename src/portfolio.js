@@ -10,7 +10,7 @@ const greeting = {
   username: "Techie Salman",
   title: "Hi, I'm Salman",
   subTitle: emoji("A passionate Software Developer 🚀 having experience of building Web and Mobile applications with .Net Core / Angular / Ionic and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1hIw-bwMa2zl-jRGLmHZK_LCEp7IlHnl7/view?usp=sharing"
 };
 
 // Your Social Media Link
