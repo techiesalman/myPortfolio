@@ -10,7 +10,7 @@ export default function Contribution() {
     return (
         <Fade bottom duration={1000} distance="20px">
             <div className="main contact-margin-top" id="contact">
-                <h1 className="prof-title">Github Contributions</h1>
+                <h1 className="skills-heading">Github Contributions</h1>
                 <br></br>
                 <div className="row parentOverScroll" >
                     <GitHubCalendar username="techiesalman" style={{width:'max-content'}}>

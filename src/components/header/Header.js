@@ -40,13 +40,13 @@ function Header() {
             <a href="#achievements">Achievements</a>
           </li> */}
           <li>
-            <a href="#contact">Blogs</a>
+            <a href="#blog">Blogs</a>
           </li>
           {/* <li>
             <a href="#talks">Talks</a>
           </li> */}
           <li>
-            <a href="#blogs">Contact Me</a>
+            <a href="#contactMe">Contact Me</a>
           </li>
           <li>
             <a>

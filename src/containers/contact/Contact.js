@@ -9,8 +9,8 @@ export default function Contact() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+      <div className="main contact-margin-top" id="contactMe">
+        <h1 className="skills-heading">Reach Out to me!</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
