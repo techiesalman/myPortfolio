@@ -19,6 +19,7 @@ const socialMediaLinks = {
 
   linkedin: "https://www.linkedin.com/in/techiesalman/",
   github: "https://github.com/techiesalman",
+  medium: "https://techiesalman.medium.com/",
   stackoverflow: "https://stackoverflow.com/users/10228422/salman"
   // Instagram and Twitter are also supported in the links!
 };
@@ -235,6 +236,27 @@ const bigProjects = {
   ]
 };  
 
+// Blogs Section
+
+const blogSection = {
+
+  title: "Blogs",
+  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+
+  blogs: [
+    {
+      url: "https://techiesalman.medium.com/how-to-use-amazon-product-advertising-api-in-c-net-core-507435d8851d",
+      title: "How to use Amazon Product Advertising API in C# .net Core?",
+      description: "Amazon Product Advertising API is an API using which users can integrate search feature and show products from Amazon..."
+    },
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
+  ]
+};
+
 
 
 const contactInfo = {
@@ -244,4 +266,4 @@ const contactInfo = {
   email_address: "hi@techiesalman.com",
 };
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, contactInfo};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, blogSection, contactInfo};
