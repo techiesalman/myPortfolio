@@ -38,6 +38,7 @@ export default function Greeting() {
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
+                  // href={require(greeting.resumeLink)}
                 />
               </div>
             </div>
